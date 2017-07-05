@@ -1,0 +1,63 @@
+//- bootstrap.jade
+//- bootstrap mixins
+
+
+//- Including Icon mixins
+include bootstrap-components/icons
+//- Including Alert mixins
+include bootstrap-components/alerts
+//- Including Tooltip mixins
+include bootstrap-components/tooltips
+//- Including Accordion mixins
+include bootstrap-components/accordion
+//- Including Carousel mixins
+include bootstrap-components/carousel
+//- Including Table mixins
+include bootstrap-components/tables
+//- Including Navbar mixins
+include bootstrap-components/navbar
+//- Including Toggle Button mixins
+include bootstrap-components/toggle
+//- Including Nav mixins
+include bootstrap-components/navs
+//- Including Label mixins
+include bootstrap-components/labels
+//- Including Panel mixins
+include bootstrap-components/panels
+//- Including Tab mixins
+include bootstrap-components/tabs
+//- Including Dropdown mixins
+include bootstrap-components/dropdowns
+//- Including Form control mixins
+include bootstrap-components/forms
+//- Including Modal dialog mixins
+include bootstrap-components/modal
+//- Including List group mixins
+include bootstrap-components/list-groups
+//- Including Progress bar mixins
+include bootstrap-components/progress-bars
+//- Including Button mixins
+include bootstrap-components/buttons
+//- Including Image mixins
+include bootstrap-components/images
+//- Including Bootswatch theme mixins
+include bootstrap-components/bootswatch
+
+doctype html
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		meta(http-equiv="X-UA-Compatible", content="IE=edge")
+		meta(name="viewport", content="width=device-width, initial-scale=1")
+		meta(name="description", content="TODO")
+		meta(name="author", content="Suzii")
+		link(rel="icon", href="favicon.ico")
+		title
+		block styles
+			link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css")
+	body(data-spy="scroll", data-target=".scrollspy")
+		block body
+			
+		block scripts
+			script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js")
+			script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js")

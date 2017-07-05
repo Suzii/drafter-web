@@ -1,0 +1,30 @@
+{
+  "name": "drafter",
+  "version": "1.0.0",
+  "description": "Static website www.drafter.sk",
+  "author": "Suzii",
+  "license": "MIT",
+  "homepage": "https://github.com/Suzii/drafter-web#readme",
+  "keywords": [
+    "drafter",
+    "cheese"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Suzii/drafter-web.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Suzii/drafter-web/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.3.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-watch": "^4.3.11"
+  }
+}

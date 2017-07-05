@@ -1,3 +1,9 @@
+# IntelliJ
+.idea/
+
+# distributable
+dist/
+
 # Logs
 logs
 *.log
